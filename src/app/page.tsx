@@ -44,7 +44,7 @@ export default function Home() {
           />
         </div>
       </DashboardCard>
-      <DashboardCard title="🏆 Images Processed Weekly Top 5" subtitle="April 6 - April 1 | Updated: 9:00 am" className="col-span-3">
+      <DashboardCard title="🏆 Images Processed Weekly Top 5" subtitle="Week of April 6 - 12 | Updated: 9:00 am" className="col-span-3">
         <TopClientsList clients={sampleClients} />
       </DashboardCard>
       <DashboardCard title="📸 What are customers sending?" subtitle="Last updated: -" className="col-span-6">
