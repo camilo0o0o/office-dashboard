@@ -24,11 +24,15 @@ export default function Home() {
       <DashboardCard title="🏆 Images Processed Weekly Top 5" subtitle="April 6 - April 12" className="col-span-3">
         <TopClientsList clients={sampleClients} />
       </DashboardCard>
-      <DashboardCard title="📸 What are customers sending?" subtitle="Last updated: 10 minutes ago" className="col-span-6">
-        <p>Recent activity will go here</p>
+      <DashboardCard title="📸 What are customers sending?" subtitle="Last updated: -" className="col-span-6">
+        <div className ="font-bold text-center">
+          <p>WORK IN PROGRESS...</p>
+          <p>🚧👷‍♂️</p>
+        </div>
+
       </DashboardCard>
-      <DashboardCard title="Something else" className="col-span-12">
-        <p>Something else</p>
+      <DashboardCard title=" " className="col-span-12">
+        <p> </p>
       </DashboardCard>
     </DashboardLayout>
   );
